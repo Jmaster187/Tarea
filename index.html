@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-container">
+            <div class="header-bg"></div>
+            <div class="header-content">
+                <img src="img/user.jpg" alt="Perfil" width="80">
+                <h1>Jose Monroy</h1>
+                <nav>
+                   <!-- <a href="#">Inicio</a> -->
+                    <a href="https://www.php.net/downloads.php">Php</a>
+                    <a href="https://dotnet.microsoft.com/es-es/download/dotnet-framework">Net</a>
+                    <a href="https://www.java.com/es/download/ie_manual.jsp">Java</a>
+                </nav>
+            </div>
+            <div class="header-bg"></div>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Lenguajes de Programación</h2>
+        <ul>
+            <li><alt="Web">1. Páginas Web
+                <ul>
+                    <li><img src="img/world-wide-web.png" alt="Jsp" class="imagen-reducida">Jsp</li>
+                    <li><img src="img/world-wide-web.png" alt="Aspx" class="imagen-reducida">Aspx</li>
+                    <li><img src="img/world-wide-web.png" alt="Php" class="imagen-reducida">Php</li>
+                </ul>
+            </li>
+            <li><alt="App">2. Aplicaciones
+                <ul>
+                    <li><img src="img/menu.png" alt="Java" class="imagen-reducida">Java</li>
+                    <li><img src="img/menu.png" alt="VB" class="imagen-reducida">Visual Basic</li>
+                    <li><img src="img/menu.png" alt="C#" class="imagen-reducida">C#</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th colspan="2">Programacion Web</th>
+                    
+                </tr>
+                <tr>
+                    <td>Asp</td>
+                    <td>Jsp</td>
+                </tr>
+                <tr>
+                    <td>Php</td>
+                    <td>Ruby</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Go</td>
+                </tr>
+            </table>
+        </div>
+        <div class="form-container">
+            <form onsubmit="showAlert(event)">
+                <input type="text" id="nombre" placeholder="Ingrese Nombres" required>
+                <input type="text" id="apellido" placeholder="Ingrese Apellidos" required>
+                <input type="text" id="telefono" placeholder="Ingrese Numero Telefónico" required>
+                <input type="email" id="email" placeholder="Ingrese Correo Electrónico" required>
+                <input type="date" id="fecha" required>
+                <textarea id="mensaje" placeholder="Ingrese el Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="social-section">
+            <h3 class="social-title">Redes Sociales</h3>
+            <div class="social-icons">
+                <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/x.png" alt="Twitter"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Aprende a Programar Fácil y Rápido © con Jose</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
